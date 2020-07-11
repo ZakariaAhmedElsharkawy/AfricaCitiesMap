@@ -396,6 +396,7 @@ require(
                 //Reset and Hide citessDDL
                 citessDDL.innerHTML = ``;
                 citessDDL.style.display = "none";
+                countriesDDL.selectedIndex = "0";
                 //Reset citiesLayer & countriesLayer definitionExpression
                 citiesLayer.definitionExpression = null;
                 countriesLayer.definitionExpression = null;
